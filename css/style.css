@@ -1,1 +1,108 @@
-html{font-family:sans-serif}html body{margin:0;padding:0}html body #wrapper header{text-align:center;background-color:gold;padding:5px}html body #wrapper #main{max-width:1600px;width:50%;margin:0 auto}html body #wrapper #main .container .slider{max-width:100%;height:600px;overflow:hidden}html body #wrapper #main .container .slider .slides{display:flex;width:500%;height:600px}html body #wrapper #main .container .slider .slides input{display:none}html body #wrapper #main .container .slider .slides .slide{max-width:20%;transition:2s}html body #wrapper #main .container .slider .slides .slide img{max-width:100%;height:600px}html body #wrapper #main .container .slider .slides #radio1:checked~.first{margin-left:0}html body #wrapper #main .container .slider .slides #radio2:checked~.second{margin-left:-20%}html body #wrapper #main .container .slider .slides #radio3:checked~.three{margin-left:-40%}html body #wrapper #main .container .slider .slides #radio4:checked~.four{margin-left:-60%}html body #wrapper #main .container .slider .slides #radio1:checked~.navigation-auto .auto-btn1{background-color:#40D3DC}html body #wrapper #main .container .slider .slides #radio2:checked~.navigation-auto .auto-btn2{background-color:#40D3DC}html body #wrapper #main .container .slider .slides #radio3:checked~.navigation-auto .auto-btn3{background-color:#40D3DC}html body #wrapper #main .container .slider .slides #radio4:checked~.navigation-auto .auto-btn4{background-color:#40D3DC}html body #wrapper #main .container .slider .slides .navigation-auto{position:absolute;display:flex;width:800px;justify-content:center}html body #wrapper #main .container .slider .slides .navigation-auto div{border:2px solid #40D3DC;padding:5px;border-radius:10px;transition:1s;visibility:hidden}html body #wrapper #main .container .slider .slides .navigation-auto div:not(:last-child){margin-right:40px}html body #wrapper #main .container .slider .navigation-manual{position:absolute;width:800px;margin-top:-40px;display:flex;justify-content:center}html body #wrapper #main .container .slider .navigation-manual .manual-btn{border:2px solid #40D3DC;padding:5px;border-radius:10px;cursor:pointer;transition:1s;margin:0 10px}html body #wrapper #main .container .slider .navigation-manual .manual-btn:not(:last-child){margin-right:40px}html body #wrapper #main .container .slider .navigation-manual .manual-btn:hover{background-color:#40D3DC}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	font-family: Raleway;
+}
+
+.header {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxGNX2SH3c7YEPon2dfrNG_mEpxRFF2pb3A&usqp=CAU');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	background-color: rgba(128, 128, 128, 0.4);
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.description {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 0;
+	text-align: center;
+}
+
+.description h1 {
+	color: #FFFFFF;
+	font-size: 4rem;
+}
+
+.description p {
+	color: #FFFFFF;
+	font-size: 1.5rem;
+}
+
+.about_container {
+	color: #343a40!important;
+}
+
+.head {
+	padding: 2em;
+}
+
+.ww_logo img {
+	padding-right: 10%;
+}
+
+.ww_logo .text-center {
+	padding-top: 8%;
+}
+
+.about_vw {
+	font-size: 1.5rem;
+	padding-left: 20%;
+	border-left: 4px solid #343a40;
+}
+
+.our_cars, .team {
+	background-color: #343a40!important;
+	color: white;
+	margin: 4em 0;
+	padding: 4em;
+}
+
+.item {
+	position: relative;
+}
+
+.item img {
+	border: 4px solid white;
+	height: 70%;
+	width: 100%;
+}
+
+.des {
+	background: white;
+	color: #343a40!important;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2rem;
+	max-width: 100%;
+}
+
+.des span {
+	font-size: 0.9rem;
+	max-width: 100%;
+}
+
+.feedback {
+	position: relative;
+	padding: 2em;
+}
+
+.feedback h1, h2, h3, h4, h5, h6 {
+	color: #343a40;
+	padding-top: 2em;
+}
+
+.news {
+	position: relative;
+	padding: 4em;
+}
